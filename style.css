@@ -78,6 +78,17 @@ button:focus {
     }
 }
 
+.box img {
+    width: 220px;
+    height: 170px;
+    border-radius: 20px;
+}
+
+.box .bi {
+    color: #FF395C;
+    margin-bottom: 3px;
+}
+
 .sezione-pagina3 {
     margin: 50px 200px;
 }
