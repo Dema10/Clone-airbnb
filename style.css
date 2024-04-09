@@ -39,6 +39,45 @@ section div span {
     margin-bottom: 5px;
 }
 
+button {
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #A1A2A1;
+    background-color: white;
+    padding: 0 10px;
+}
+
+button:nth-child(2) {
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #FF5C60;
+}
+
+button:focus {
+    animation: bounce 2s linear;
+    background-color: #FF5C60;
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(0.9);
+    }
+    25% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    75% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 .sezione-pagina3 {
     margin: 50px 200px;
 }
