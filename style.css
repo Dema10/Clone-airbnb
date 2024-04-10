@@ -51,6 +51,12 @@ button:nth-child(2) {
     margin: 0 10px;
 }
 
+@media screen and (max-width:760px) {
+    button:nth-child(2) {
+        margin: 0;
+    }
+}
+
 button:hover {
     background-color: #FF5C60;
 }
@@ -88,8 +94,6 @@ button:focus {
     color: #FF395C;
     margin-bottom: 3px;
 }
-
-
 
 .section {
     margin: 30px 200px;
