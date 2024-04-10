@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 nav img {
     width: 100px;
 }
@@ -89,8 +91,6 @@ button:focus {
     margin-bottom: 3px;
 }
 
-
-
 .section {
     margin: 30px 200px;
 }
@@ -108,11 +108,26 @@ button:focus {
     width:250px;
 }
 
-
 .foto-angolo-up {
     border-radius: 0 20px 0 0;
 }
 
 .foto-angolo-down {
     border-radius: 0 0 20px 0;
+}
+
+.section span {
+    font-weight: 800;
+}
+
+.section p {
+    font-size: 13px;
+}
+
+.section ion-icon {
+    font-size: 13px;
+}
+
+.list .col-9 {
+
 }
