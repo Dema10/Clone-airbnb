@@ -89,36 +89,18 @@ button:focus {
     margin-bottom: 3px;
 }
 
-.sezione-pagina3 {
-    margin: 50px 200px;
-}
-
-.sezione-pagina3 p span {
-    font-weight: 800;
-}
-
-.sezione-pagina3 div {
-    display: flex;
-    justify-content: space-between;
-}
-
-.sezione-pagina3 .left {
-    display: flex;
-    align-items: center;
-    gap: 5px;;
-}
 
 
 .section {
     margin: 30px 200px;
 }
 
-.left {
-    margin-right: 120px;
+.left p {
+    margin: 0;
 }
 
 .foto-grande {
-    width:500px;
+    width:618px;
     border-radius: 20px 0 0 20px;
 }
 
