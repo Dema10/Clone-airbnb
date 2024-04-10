@@ -107,3 +107,30 @@ button:focus {
     align-items: center;
     gap: 5px;;
 }
+
+
+.section {
+    margin: 30px 200px;
+}
+
+.left {
+    margin-right: 120px;
+}
+
+.foto-grande {
+    width:500px;
+    border-radius: 20px 0 0 20px;
+}
+
+.foto-piccole img {
+    width:250px;
+}
+
+
+.foto-angolo-up {
+    border-radius: 0 20px 0 0;
+}
+
+.foto-angolo-down {
+    border-radius: 0 0 20px 0;
+}
