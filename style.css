@@ -23,8 +23,25 @@ nav div:nth-child(2) img {
     
 }
 
+.user p {
+    font-size: 10px;
+    text-wrap: nowrap;
+    padding-left: 10px;
+}
+
 .ion {
-    padding: 0 30px;
+    padding: 0 5px;
+}
+
+@media screen and (min-width:760px) {
+    .user p {
+        font-size: 15px;
+        text-wrap: nowrap;
+        padding-left: 10px;
+    }
+    .ion {
+        padding: 0 20px;
+    }
 }
 
 section div span {
@@ -86,6 +103,10 @@ button:focus {
     }
 }
 
+.box-container {
+    margin-bottom: 100px;
+}
+
 .box img {
     width: 220px;
     height: 170px;
@@ -132,5 +153,4 @@ button:focus {
 
 .section ion-icon {
     font-size: 13px;
->>>>>>> 0c2fc2609692834ab7c3a2b9f22a8a32cad7f660
 }
