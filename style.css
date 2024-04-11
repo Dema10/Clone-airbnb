@@ -102,9 +102,11 @@ button:focus {
         transform: scale(1);
     }
 }
-
+.box-container:first-child{
+    margin-top: 0px;
+}
 .box-container {
-    margin-bottom: 100px;
+    margin: 50px 0;
 }
 
 .box img {
@@ -116,6 +118,10 @@ button:focus {
 .box .bi {
     color: #FF395C;
     margin-bottom: 3px;
+}
+
+.divisore {
+    border: 1px solid #FF395C; 
 }
 
 .section {
