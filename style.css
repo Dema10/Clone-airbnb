@@ -120,6 +120,7 @@ button:focus {
     box-shadow: 0 0 7px 7px #FF395C;
     border-radius: 20px;
     padding: 5px;
+    margin: 15px 0;
 }
 
 .box img {
