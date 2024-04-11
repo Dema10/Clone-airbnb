@@ -105,8 +105,21 @@ button:focus {
 .box-container:first-child{
     margin-top: 0px;
 }
+
 .box-container {
     margin: 50px 0;
+}
+
+.box {
+    transition: .5s linear;
+}
+
+.box:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0 0 7px 7px #FF395C;
+    border-radius: 20px;
+    padding: 5px;
 }
 
 .box img {
