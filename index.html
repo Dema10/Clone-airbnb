@@ -1,12 +1,190 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Home Air B&B</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="home.css">
 </head>
 <body>
-    
+    <!--Navbar-->
+    <div class="container-fluid p-0">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
+            <div class="col-md-3 mb-2 mb-md-0">
+                <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+                    <img class="ms-5" src="assets/assets/logo.png" alt="Logo air b&b">
+                </a>
+            </div>
+
+            <ul class="nav col-12 col-md-auto mb-3 d-flex justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-2 link-light">Places to stay</a></li>
+                <li><a href="#" class="nav-link px-2 link-light">Experiences</a></li>
+                <li><a href="#" class="nav-link px-2 link-light">Online Experiences</a></li>
+            </ul>
+
+            <div id="dx" class="col-md-3 d-flex align-items-center justify-content-center">
+                <p>Became a host</p>
+                <i class="bi bi-globe text-light"></i>
+                <button type="button" class="btn rounded-pill bg-light p-1 px-2 ms-3">
+                    <i class="bi bi-list icone-btn"></i>
+                    <i class="bi bi-person-circle icone-btn"></i>
+                </button>
+            </div>
+        </header>
+    </div>
+    <!--Searchbar-->
+    <div id="search-bar" class="container-fluid bg-black d-flex align-items-center justify-content-center p-2">
+        <div class="row">
+            <div class="col-12 searchbar">
+                <div class="col d-flex flex-column">
+                    <label for="text me-4">Location</label>
+                    <input class="me-4" placeholder="Where are you going?">
+                </div>
+                <div class="col d-flex flex-column ms-2 imput-2">
+                    <label for="text ms-2">Check-in</label>
+                    <input type="text" placeholder="gg/mm/aaaa">
+                </div>
+                <i class="bi bi-calendar align-items-end mt-4 me-3"></i>
+                <div class="col d-flex flex-column imput-2">
+                    <label for="text">Check-out</label>
+                    <input class="me-2" type="text" placeholder="gg/mm/aaaa">
+                </div>
+                <i class="bi bi-calendar align-items-end mt-4 me-3"></i>
+                <div class="col d-flex flex-column">
+                    <label for="text">Guests</label>
+                    <input class="me-2" type="text" placeholder="Add guests">
+                </div>
+                <div class="lente col">
+                    <i class="bi bi-search rounded-pill p-3"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Jumbo-->
+    <div id="jumbo" class="container-fluid">
+        <div class="row">
+            <h1 class="titolo1">Go</h1>
+            <h2 class="titolo2">Near</h2>
+            <button class="home-btn">Explore nearby stays</button>
+        </div>
+    </div>
+    <!--Main-->
+    <div class="main d-flex ">
+        <div class="container">
+            <div class="row">
+                <!--Località1-->
+                <div class="col-3">
+                    <div class="card-container">
+                        <div id="luoghi" class="d-flex  mt-4">
+                            <img src="assets/assets/città1.jpg" alt="Genova">
+                        </div>
+                        <div class="text d-flex flex-column">
+                            <div class="card-title"><b>Genova</b></div>
+                            <div class="card-description">15 mins drive</div>
+                        </div>
+                    </div>
+                </div>
+                <!--Località2-->
+                <div class="col-3">
+                    <div class="card-container">
+                        <div id="luoghi" class="d-flex  mt-4">
+                            <img src="assets/assets/città2.jpg" alt="Inverness">
+                        </div>
+                        <div class="text d-flex flex-column">
+                            <div class="card-title"><b>Inverness</b></div>
+                            <div class="card-description">15 mins drive</div>
+                        </div>
+                    </div>
+                </div>
+                <!--Località3-->
+                <div class="col-3">
+                    <div class="card-container">
+                        <div id="luoghi" class="d-flex  mt-4">
+                            <img src="assets/assets/città3.jpg" alt="Edimburgh">
+                        </div>
+                        <div class="text d-flex flex-column">
+                            <div class="card-title"><b>Edimburgh</b></div>
+                            <div class="card-description">15 mins drive</div>
+                        </div>
+                    </div>
+                </div>
+                <!--Località4-->
+                <div class="col-3">
+                    <div class="card-container">
+                        <div id="luoghi" class="d-flex  mt-4">
+                            <img src="assets/assets/città4.jpg" alt="Rapallo">
+                        </div>
+                        <div class="text d-flex flex-column">
+                            <div class="card-title"><b>Rapallo</b></div>
+                            <div class="card-description">15 mins drive</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!--Main2-->
+     <div class="main d-flex ">
+        <div class="container">
+            <div class="row">
+                <!--Località5-->
+                <div class="col-3">
+                    <div class="card-container">
+                        <div id="luoghi" class="d-flex  mt-4">
+                            <img src="assets/assets/città5.jpg" alt="Milan">
+                        </div>
+                        <div class="text d-flex flex-column">
+                            <div class="card-title"><b>Milan</b></div>
+                            <div class="card-description">1.5 hrs drive</div>
+                        </div>
+                    </div>
+                </div>
+                <!--Località6-->
+                <div class="col-3">
+                    <div class="card-container">
+                        <div id="luoghi" class="d-flex  mt-4">
+                            <img src="assets/assets/città6.jpg" alt="Montecarlo">
+                        </div>
+                        <div class="text d-flex flex-column">
+                            <div class="card-title"><b>Montecarlo</b></div>
+                            <div class="card-description">2hr drive</div>
+                        </div>
+                    </div>
+                </div>
+                <!--Località7-->
+                <div class="col-3">
+                    <div class="card-container">
+                        <div id="luoghi" class="d-flex  mt-4">
+                            <img src="assets/assets/città7.jpg" alt="Kirkwall">
+                        </div>
+                        <div class="text d-flex flex-column">
+                            <div class="card-title"><b>Kirkwall</b></div>
+                            <div class="card-description">1 hr drive</div>
+                        </div>
+                    </div>
+                </div>
+                <!--Località8-->
+                <div class="col-3">
+                    <div class="card-container">
+                        <div id="luoghi" class="d-flex  mt-4">
+                            <img src="assets/assets/città8.jpg" alt="Nordkapp">
+                        </div>
+                        <div class="text d-flex flex-column">
+                            <div class="card-title"><b>Nordkapp</b></div>
+                            <div class="card-description">10 hrs flight</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5581abaa8c.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
