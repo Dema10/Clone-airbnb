@@ -250,7 +250,6 @@ ion-icon:hover {
 }
 
 .heart-outline:active { 
-    content: "";
     color:  #FF395C ;
 }
 
