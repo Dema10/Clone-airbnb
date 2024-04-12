@@ -1,8 +1,14 @@
+/* IMPORT FONT & BOOTSTRAO ICONS */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
+
+/* Reset */
 *{
     font-family: "Figtree", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 nav img {
@@ -13,7 +19,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 nav div:nth-child(2) {
@@ -147,10 +152,13 @@ button:focus {
     margin: 30px 200px;
 }
 
+
+/* Pagina 3 */
 .left p {
     margin: 0;
 }
 
+/* Foto section */
 .foto-grande {
     width:618px;
     border-radius: 20px 0 0 20px;
@@ -168,6 +176,7 @@ button:focus {
     border-radius: 0 0 20px 0;
 }
 
+/* Section font */
 .section span {
     font-weight: 800;
 }
@@ -180,8 +189,7 @@ button:focus {
     font-size: 13px;
 }
 
-
-
+/* Style Pagina 3 colonna e card */
 .colonna {
     justify-content: space-between;
 }
@@ -245,6 +253,7 @@ input[type=date].borders.py-2 {
     justify-content: flex-end;
 }
 
+/* Piccole animazioni */
 ion-icon:hover {
     transform: scale(1.1);
 }
@@ -253,6 +262,9 @@ ion-icon:hover {
     color:  #FF395C ;
 }
 
+/* Media Query di pagina 3 */
+
+/* Per far scendere la card sotto la colonna di informazioni */
 @media (max-width: 1285px) {
     .list .colonna{
         display: flex;
@@ -283,8 +295,9 @@ ion-icon:hover {
     .form-top select {
         padding:0;
     }
- }
+}
 
+/* Modifica delle posizione delle foto, border-radius, adattamento dello schermo di form, recensioni e colonna delle regole */
  @media (max-width:1352px) {
     .sezione-foto {
         flex-direction: column;
@@ -359,6 +372,7 @@ ion-icon:hover {
     }
  }
 
+ /* Apparizione del carosello al posto delle foto */
  @media (max-width:535px) {
     .sezione-foto {
         display: none;
@@ -377,6 +391,7 @@ ion-icon:hover {
     }
  }
 
+ /* Modifche alla card adattamento allo schermo */
  @media (max-width: 491px) {
     input[type=date].borders.py-2 {
         border: none;
