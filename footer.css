@@ -1,0 +1,51 @@
+.ass-ospiti {
+    border-top: 0.5px solid #FF395C;
+    border-bottom: 0.5px solid #FF395C;
+}
+
+.service:hover {
+    color: #FF395C;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.u-service {
+    font-size: 14px;
+}
+
+.u-service:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.ball{
+    padding: 0 10px;
+}
+
+@media screen and (max-width:760px) {
+    .banana {
+        margin-left: 30px;
+    }
+}
+
+.bi {
+    padding: 0 5px;
+}
+
+.pad {
+    padding: 0 5px;
+}
+
+.services:hover { 
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.social i {
+    font-size: 20px;
+    color: #FF395C;
+}
+
+.social i:hover {
+    cursor: pointer;
+}
